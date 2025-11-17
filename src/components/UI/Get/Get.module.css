@@ -1,0 +1,122 @@
+.container{
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  padding-top: 100px;
+}
+
+.title{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #01353E;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.get{
+  width: 1200px;
+}
+
+/* ---------- FIRST PART ---------- */
+.get_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-bottom: 100px;
+}
+.get_list_item{
+  width: 350px;
+}
+.get_list_item_head{
+  height: 60px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.get_list_item_head > img{
+  width: 50px;
+  height: auto;
+  padding-right: 10px;
+}
+.get_list_item_head > h5{
+  width: 150px;
+  display: flex;
+  align-items: center;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #242121;
+}
+.get_list_item > p{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #242121;
+
+  height: 70px;
+  display: flex;
+  align-items: stretch;
+}
+
+/* ---------- SECOND PART ---------- */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 150px;
+}
+.get_percent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.get_percent_item{
+  display: flex;
+  flex-direction: column;
+}
+.get_percent_item_head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.get_percent_item_head > img{
+  height: 15px;
+  width: auto;
+}
+.get_percent_item_head > p{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #242121;
+
+  padding-left: 10px;
+}
+.get_percent_item > p{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #242121;
+}
+
+.get_about{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  justify-content: space-between;
+}
+.get_about > p{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #242121;
+}
